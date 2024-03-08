@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+
+    <div class="px-[600px] pt-[100px]">
+       
+        <div class="flex space-x-[20px]">
+           <div class="text-center"> 
+        <p class="pb-[20px] text-[20px] font-bold"> ayxan: <span id="countspan1"></span></p>
+            <div class="size-[100px]">
+                <img src="./dice.imges/1.png" id="random1" class="size-full object-contain" alt="">
+            </div>
+        </div>
+
+       <div class="text-center">
+         <p class="pb-[20px] text-[20px] font-bold"> Şahid: <span id="countspan2"></span></p>
+            <div class="size-[100px]">
+                <img src="./dice.imges/1.png" id="random2" class="size-full object-contain" alt="">
+            </div>
+        </div>
+       </div>
+
+       <div class="pt-[20px]">
+        <div>
+         <p class="pb-[20px] text-[20px] font-bold">beraber: <span id="countspan3"></span></p>  
+        </div>
+        <button id="run" class="bg-red-700 text-white px-[20px] py-[10px] mt-[20px]  rounded-[5px] hover:bg-red-900" > zer at</button>
+       </div>
+     
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
